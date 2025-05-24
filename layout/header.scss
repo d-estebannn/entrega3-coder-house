@@ -1,0 +1,18 @@
+.navbar {
+    background-color: orange;
+
+    ul {
+        display: flex;
+        padding: 2.8125rem;
+        margin-bottom: 1.25rem;
+        gap: 3.125rem;
+        justify-content: center;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 2.1875rem;
+    }
+}

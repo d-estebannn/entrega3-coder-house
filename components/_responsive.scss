@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .section-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        img {
+            width: 80%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .menu,
+        .promos,
+        .sucursales,
+        .nosotros,
+        .bur-ches,
+        .bur-clasica,
+        .vegeta {
+            width: 90%;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacto {
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 0.95rem;
+        }
+
+        .form-contacto button {
+            font-size: 0.95rem;
+        }
+    }
+}
