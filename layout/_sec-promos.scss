@@ -1,0 +1,14 @@
+.promo1 { grid-column: 3/5;
+    grid-row: 3/4;  
+    background-color: orange;
+    justify-self: start}
+
+.promo2{ grid-column: 3/5;
+    grid-row: 4/5;
+    background-color: orange;
+    justify-self: center}
+
+.promo3{ grid-column: 3/5;
+    grid-row: 5/6;
+    background-color: orange;
+    justify-self: center}
