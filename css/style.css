@@ -37,6 +37,29 @@
   font-size: 2.1875rem;
 }
 
+.navbar a {
+  position: relative;
+  transition: color 0.3s ease;
+}
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.navbar a:hover {
+  color: black;
+}
+.navbar a:hover::after {
+  transform: scaleX(1);
+}
+
 .section-principal {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
